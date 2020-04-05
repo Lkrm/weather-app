@@ -1,0 +1,15 @@
+html{
+    font-size: 100px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: initial;
+    font-family: 'Gotu', sans-serif;
+}
+
+body > div:not(#root){
+    display: none;
+    opacity: 0;
+}
